@@ -19,14 +19,6 @@ Built to be clean, minimal, and easy to customize for developers and designers.
 
 ---
 
-## 🖼️ Preview
-
-> Add screenshots or a live demo link here
-
-Example:
-- Live Demo: https://your-demo-link.com  
-- Screenshots: `/screenshots`
-
 ---
 
 ## 🛠️ Tech Stack
