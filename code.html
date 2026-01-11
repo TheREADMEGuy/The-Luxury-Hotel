@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Luxury- Unique Experiences</title>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Tailwind Configuration -->
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#e7ac23",
+                        "background-light": "#f8f7f6",
+                        "background-dark": "#211c11",
+                        "surface-dark": "#2a2415", 
+                        "surface-light": "#ffffff",
+                    },
+                    fontFamily: {
+                        "display": ["Manrope", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "2xl": "1rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        /* Custom scrollbar hiding for clean UI */
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-[#111418] dark:text-white font-display overflow-x-hidden antialiased">
+<!-- Top Navigation -->
+<header class="fixed top-0 z-50 w-full transition-all duration-300 bg-background-dark/80 backdrop-blur-md border-b border-[#383429]">
+<div class="layout-container flex h-full grow flex-col">
+<div class="px-4 md:px-10 lg:px-40 flex flex-1 justify-center py-3">
+<div class="layout-content-container flex flex-col max-w-[1200px] flex-1">
+<div class="flex items-center justify-between whitespace-nowrap">
+<div class="flex items-center gap-4 text-white">
+<div class="size-6 text-primary">
+<span class="material-symbols-outlined text-3xl">diamond</span>
+</div>
+<h2 class="text-white text-xl font-bold leading-tight tracking-[0.1em] uppercase">Luxury</h2>
+</div>
+<div class="hidden lg:flex flex-1 justify-end gap-8">
+<nav class="flex items-center gap-9">
+<a class="text-white/80 hover:text-primary transition-colors text-sm font-medium leading-normal" href="#">Suites</a>
+<a class="text-white/80 hover:text-primary transition-colors text-sm font-medium leading-normal" href="#">Dining</a>
+<a class="text-white text-sm font-medium leading-normal border-b border-primary pb-0.5" href="#">Experiences</a>
+<a class="text-white/80 hover:text-primary transition-colors text-sm font-medium leading-normal" href="#">Wellness</a>
+<a class="text-white/80 hover:text-primary transition-colors text-sm font-medium leading-normal" href="#">Gallery</a>
+</nav>
+<div class="flex gap-4 items-center">
+<button class="text-white hover:text-primary transition-colors">
+<span class="material-symbols-outlined">search</span>
+</button>
+<button class="text-white hover:text-primary transition-colors">
+<span class="material-symbols-outlined">person</span>
+</button>
+<a class="bg-primary hover:bg-primary/90 text-background-dark px-5 py-2 rounded-full text-sm font-bold transition-colors" href="#">
+                                    Book Now
+                                </a>
+</div>
+</div>
+<!-- Mobile Menu Icon -->
+<div class="lg:hidden flex items-center">
+<button class="text-white">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</header>
+<!-- Main Content Wrapper -->
+<main class="relative flex flex-col min-h-screen pt-[70px]">
+<!-- Hero Section -->
+<section class="relative h-[85vh] w-full overflow-hidden flex items-center justify-center">
+<div class="absolute inset-0 bg-cover bg-center bg-no-repeat transition-transform duration-[20s] hover:scale-105" data-alt="Luxury hotel lobby with high ceilings, gold lighting, and marble floors" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBGTlWhSDvpHutB_YTTjDo5gVYnHuBWk4D-kzPOTRC2sLp2p9Zz3wArzw9pBpNY1UPMruuVxQX7ca3HBFcnCDX4k4lOPQU2-sbXb5ooNgAaRR2X2uFYjcq870jRiHpf6NUynYpQTnN3sOc9fZS1ATMnfHUUyFxA0c6sbqdiU1Pkpp51guLCE6cXalVJSX6fxMerdP7tIH-A2CQXRrz6RO4740Zd67VTgh-kes1wHek-VYAFDzIEZh4UIq8IC6lLj4mCc6ZKz8f-PA');">
+</div>
+<div class="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-background-dark"></div>
+<div class="relative z-10 text-center px-4 max-w-4xl mx-auto flex flex-col items-center gap-6">
+<span class="text-primary tracking-[0.2em] text-sm font-bold uppercase animate-fade-in-up">The LuxuryCollection</span>
+<h1 class="text-4xl md:text-6xl lg:text-7xl font-bold text-white tracking-tight leading-tight">
+                    Beyond the <span class="italic font-light text-primary">Ordinary</span>
+</h1>
+<p class="text-white/90 text-lg md:text-xl font-light max-w-2xl leading-relaxed">
+                    Immerse yourself in a world where every detail is curated for the extraordinary. Discover amenities designed to transcend the expectations of luxury.
+                </p>
+<div class="mt-8">
+<span class="material-symbols-outlined text-white animate-bounce text-4xl opacity-70">keyboard_arrow_down</span>
+</div>
+</div>
+</section>
+<!-- Intro Text -->
+<section class="py-16 md:py-24 px-4 bg-background-dark">
+<div class="max-w-[800px] mx-auto text-center">
+<h2 class="text-white text-3xl font-bold leading-tight tracking-[-0.015em] mb-6">The Art of Luxury Living</h2>
+<p class="text-gray-300 text-lg font-light leading-relaxed">
+                    Welcome to a sanctuary where time stands still. Luxuryoffers an escape into a world of refined opulence, where every detail is curated to perfection and every moment is a celebration of the extraordinary. From our Michelin-starred gastronomy to our world-class wellness sanctuary, experience the pinnacle of 7-star hospitality.
+                </p>
+</div>
+</section>
+<!-- Tabs Navigation (Sticky) -->
+<section class="sticky top-[70px] z-40 bg-background-dark/95 backdrop-blur shadow-lg border-b border-[#383429] py-4">
+<div class="max-w-[960px] mx-auto px-4 overflow-x-auto no-scrollbar">
+<div class="flex gap-8 md:justify-center min-w-max">
+<a class="group flex flex-col items-center gap-2 cursor-pointer" href="#">
+<p class="text-primary text-sm font-bold tracking-widest uppercase">All Experiences</p>
+<div class="h-0.5 w-full bg-primary rounded-full"></div>
+</a>
+<a class="group flex flex-col items-center gap-2 cursor-pointer" href="#">
+<p class="text-gray-400 group-hover:text-white transition-colors text-sm font-bold tracking-widest uppercase">Wellness</p>
+<div class="h-0.5 w-0 group-hover:w-full transition-all duration-300 bg-white rounded-full"></div>
+</a>
+<a class="group flex flex-col items-center gap-2 cursor-pointer" href="#">
+<p class="text-gray-400 group-hover:text-white transition-colors text-sm font-bold tracking-widest uppercase">Gastronomy</p>
+<div class="h-0.5 w-0 group-hover:w-full transition-all duration-300 bg-white rounded-full"></div>
+</a>
+<a class="group flex flex-col items-center gap-2 cursor-pointer" href="#">
+<p class="text-gray-400 group-hover:text-white transition-colors text-sm font-bold tracking-widest uppercase">Leisure</p>
+<div class="h-0.5 w-0 group-hover:w-full transition-all duration-300 bg-white rounded-full"></div>
+</a>
+</div>
+</div>
+</section>
+<!-- Feature 1: Spa (Image Left) -->
+<section class="py-20 px-4 md:px-10 lg:px-40 bg-background-dark">
+<div class="max-w-[1200px] mx-auto">
+<div class="flex flex-col lg:flex-row bg-surface-dark rounded-2xl overflow-hidden shadow-2xl group">
+<div class="lg:w-3/5 h-[400px] lg:h-[600px] relative overflow-hidden">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="Serene indoor spa pool with stone walls and soft ambient lighting" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBVXd3C0bnYdcb33gthP2aTm3FSf6Nsk0xNKJ1Aw_DoZyphOH88K8-SxCULAiAETbB0o35gfZpK8QyTZ6gJchum9BQit76VsUHqaWpd7DFTxD-yQrVwpXm13wSz4JWvdhpwppdNIIg3DKkvsdgeQUaZpvznS-BbH2xwku4qF1-FnXhoX_IFG-7J0u4lVuRWpKNtQsmgufufrPgdQC5JLBT-rw0hHK6OruDQ_oZRoPof0FGsOmq8682L3xTZZ2Wh_vJd5YF3syLI3Q');">
+</div>
+<div class="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors duration-500"></div>
+</div>
+<div class="lg:w-2/5 p-10 lg:p-16 flex flex-col justify-center relative">
+<div class="absolute top-0 right-0 p-6 opacity-10 text-primary">
+<span class="material-symbols-outlined text-[120px]">spa</span>
+</div>
+<span class="text-primary text-xs font-bold tracking-[0.2em] uppercase mb-4">Wellness Sanctuary</span>
+<h3 class="text-white text-3xl md:text-4xl font-bold mb-6">The Royal Spa</h3>
+<p class="text-gray-300 font-light leading-relaxed mb-8">
+                            Rejuvenate your senses in our award-winning spa. Featuring ancient healing traditions fused with modern therapy, thermal suites, and a private hammam tailored for royalty.
+                        </p>
+<a class="inline-flex items-center gap-2 text-white font-medium hover:text-primary transition-colors group/link" href="#">
+                            Discover Treatments 
+                            <span class="material-symbols-outlined text-sm transition-transform group-hover/link:translate-x-1">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Feature 2: Dining (Image Right) -->
+<section class="py-10 px-4 md:px-10 lg:px-40 bg-background-dark">
+<div class="max-w-[1200px] mx-auto">
+<div class="flex flex-col lg:flex-row-reverse bg-surface-dark rounded-2xl overflow-hidden shadow-2xl group">
+<div class="lg:w-3/5 h-[400px] lg:h-[600px] relative overflow-hidden">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="Fine dining plate with exquisite food presentation in a dark moody restaurant setting" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBGEVVrabTzeEcwebm1_vQ9v_SVVeg35nVBuDEdfY-EyDbCTsKpOM7R76CDqF-oG_WGMGrbH0pHVCKhqgJbC2LSiZ8jx5rOKkUblqlbdd7Uaxng-HZJtI0MBHlDrzTEZmH4Y48ypxrbEluTfDlzaHlWYcYbjM0hwrC-WL5oOrP5GfvFeL2teX7OsVkk5doXobbPVXLItQ6hClKNo1IA0ZoixeeVO7HBCGSEutAIHTbzSqGbWyZckQtdfxQSVWgcl41AThQQT8lqPA');">
+</div>
+<div class="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors duration-500"></div>
+</div>
+<div class="lg:w-2/5 p-10 lg:p-16 flex flex-col justify-center relative">
+<div class="absolute top-0 left-0 p-6 opacity-10 text-primary">
+<span class="material-symbols-outlined text-[120px]">restaurant_menu</span>
+</div>
+<span class="text-primary text-xs font-bold tracking-[0.2em] uppercase mb-4">Gastronomy</span>
+<h3 class="text-white text-3xl md:text-4xl font-bold mb-6">Epicurean Journeys</h3>
+<p class="text-gray-300 font-light leading-relaxed mb-8">
+                            Embark on a culinary voyage helmed by Michelin-starred chefs. From the private wine cellar boasting rare vintages to the rooftop omakase bar, every bite is a masterpiece.
+                        </p>
+<a class="inline-flex items-center gap-2 text-white font-medium hover:text-primary transition-colors group/link" href="#">
+                            View Dining Options
+                            <span class="material-symbols-outlined text-sm transition-transform group-hover/link:translate-x-1">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Parallax / Full Width Section: The Vault -->
+<section class="relative py-32 w-full overflow-hidden bg-fixed bg-cover bg-center my-20" data-alt="Dark luxurious lounge with velvet seating and golden bar lighting" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAUzKGeI3Uri-WgRGacjCdhY3goMIh6Y35lowvIjUewTDCZR3-7DkJ_B7kDjAQEJkoQGngrtgOE1Z0JtGAFIof18dRZL3IUFe56gRFccXxZT_irjWMb9Xz5jYWUKbzz9xI4IVK2WTNMhJYF_VhD3QLBVwLeKq3p-BjDG_bBEb0MhGCYrB4wlU8uA1albVqfvCnyaRzEvZv4TM5dJMWP-uSb2W3ZZfeAEJGteuhwiGMLKHKJG2Ldo-64l8llkMVwfZahlcYqZ-nrug');">
+<div class="absolute inset-0 bg-background-dark/80"></div>
+<div class="relative z-10 max-w-4xl mx-auto px-4 text-center">
+<span class="inline-block border border-primary/50 rounded-full px-4 py-1 text-primary text-xs font-bold tracking-widest uppercase mb-6 bg-background-dark/50 backdrop-blur">
+                    Exclusive Access
+                </span>
+<h2 class="text-4xl md:text-6xl font-bold text-white mb-6">The Vault</h2>
+<p class="text-xl text-gray-200 font-light max-w-2xl mx-auto mb-10">
+                    A members-only lounge offering the world's rarest spirits, private alcoves, and a personalized atmosphere for those who seek absolute privacy.
+                </p>
+<button class="bg-primary hover:bg-white text-background-dark font-bold py-3 px-8 rounded-lg transition-colors duration-300">
+                    Inquire for Access
+                </button>
+</div>
+</section>
+<!-- Feature 3: Infinity Pool (Image Left) -->
+<section class="py-20 px-4 md:px-10 lg:px-40 bg-background-dark">
+<div class="max-w-[1200px] mx-auto">
+<div class="flex flex-col lg:flex-row bg-surface-dark rounded-2xl overflow-hidden shadow-2xl group">
+<div class="lg:w-3/5 h-[400px] lg:h-[600px] relative overflow-hidden">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="Infinity pool overlooking a tropical ocean sunset" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCzzckizv-grlghnI6xViWypL9R95iTNNT4VJ0oeVdXBqg-ZJa6aQSWegTBP54Oz7mQGD19BzbqI7jAZ8wFjbQ0Lb0oncFbM7JgR9hswy7UMbatn8i-lA6l-1iA3GB5LSrg501c-Ur8UvIKg0gItuTiyRglV1eJwHSSyx-HhvpXjguAyn34zgOJxDEexmYK_R8HfPJIEPCRD2-HX6h3xpK3k-oAleRJEcEjaxGPIMl-mWFafpagfRlhYgkYAxtJvYf1iHmKJ28lxA');">
+</div>
+</div>
+<div class="lg:w-2/5 p-10 lg:p-16 flex flex-col justify-center relative">
+<div class="absolute top-0 right-0 p-6 opacity-10 text-primary">
+<span class="material-symbols-outlined text-[120px]">pool</span>
+</div>
+<span class="text-primary text-xs font-bold tracking-[0.2em] uppercase mb-4">Leisure</span>
+<h3 class="text-white text-3xl md:text-4xl font-bold mb-6">The Infinity Edge</h3>
+<p class="text-gray-300 font-light leading-relaxed mb-8">
+                            Suspended between sky and sea, our infinity pool offers uninterrupted panoramic views. Enjoy poolside butler service and private cabanas equipped with state-of-the-art entertainment systems.
+                        </p>
+<a class="inline-flex items-center gap-2 text-white font-medium hover:text-primary transition-colors group/link" href="#">
+                            Explore Leisure
+                            <span class="material-symbols-outlined text-sm transition-transform group-hover/link:translate-x-1">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Amenities Carousel / Grid -->
+<section class="py-24 px-4 bg-[#1a1610]">
+<div class="layout-content-container max-w-[1200px] mx-auto flex flex-col gap-10">
+<div class="flex justify-between items-end">
+<div>
+<span class="text-primary font-bold tracking-widest text-sm uppercase">Services</span>
+<h2 class="text-white text-3xl font-bold mt-2">Signature Amenities</h2>
+</div>
+<div class="flex gap-2">
+<button class="size-10 rounded-full border border-gray-600 flex items-center justify-center text-white hover:border-primary hover:text-primary transition-colors">
+<span class="material-symbols-outlined">arrow_back</span>
+</button>
+<button class="size-10 rounded-full border border-gray-600 flex items-center justify-center text-white hover:border-primary hover:text-primary transition-colors">
+<span class="material-symbols-outlined">arrow_forward</span>
+</button>
+</div>
+</div>
+<div class="flex overflow-x-auto gap-6 pb-8 no-scrollbar snap-x">
+<!-- Amenity Card 1 -->
+<div class="min-w-[280px] md:min-w-[320px] snap-start group cursor-pointer">
+<div class="h-[200px] w-full rounded-xl bg-surface-dark overflow-hidden relative mb-4">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-110" data-alt="Luxury concierge desk with golden accents" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBAU2mXd9t9Yknra3E0_vozHB63EpkYwHmi56jtSzKaw8mIAuGNtXDEJg9IfqyxH6wPGk7AI2ypfyy9l17h0u3Fpe_5I7Poy9-is1bUiTFwsiQ9KwAwH1STEc782gvYvCf-Cmk_TECNuzNkfAu6MtsvknH_KwCDKphJUyy_Mv38-4T0nJ0CYkNd1CKBQYZTCMebsxPBfTiWnhRXMPVh7V8fHUmS9sKzTvk5aFk4z87_V_Ym2l-O0NSGP3VxApDgiDga2iJ3kPy72g');">
+</div>
+<div class="absolute inset-0 bg-black/30 group-hover:bg-black/10 transition-colors"></div>
+</div>
+<h4 class="text-white text-lg font-bold group-hover:text-primary transition-colors">Personal Concierge</h4>
+<p class="text-gray-400 text-sm mt-1">24/7 dedication to your every request.</p>
+</div>
+<!-- Amenity Card 2 -->
+<div class="min-w-[280px] md:min-w-[320px] snap-start group cursor-pointer">
+<div class="h-[200px] w-full rounded-xl bg-surface-dark overflow-hidden relative mb-4">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-110" data-alt="Private jet interior with leather seats" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDn3ALD1AUVRQjCVBS5vmrgFb_XGQdnIlaVNeH-6ECiY13BtjpZZQw0sz4nuZIs7LaFuGFz-jn2_RiHwMTdnFcsEEZkRkMYo6dUlr5GPFpJAdrJloMZZJZQGkQIHi0y_-H82Gf2Bp80WHLLyyvsWDAiyarH1UoBahn24LlCEEoOv5ZumZobL-Tmn4svLU-WS6x2I2dhCP0hgWrdJUTphGEXXYnnZj7OUZaqbImApMNy-lUgrDEaoOEvpKxYXno4joyx1DwTFoC8bg');">
+</div>
+<div class="absolute inset-0 bg-black/30 group-hover:bg-black/10 transition-colors"></div>
+</div>
+<h4 class="text-white text-lg font-bold group-hover:text-primary transition-colors">Airport Transfer</h4>
+<p class="text-gray-400 text-sm mt-1">Helicopter or Rolls-Royce pickup.</p>
+</div>
+<!-- Amenity Card 3 -->
+<div class="min-w-[280px] md:min-w-[320px] snap-start group cursor-pointer">
+<div class="h-[200px] w-full rounded-xl bg-surface-dark overflow-hidden relative mb-4">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-110" data-alt="Private butler pouring tea" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBKeufsyTOBfJW6yk5oOnTTRbrEhiXuEcwA9EOCCg35O8nzRQJYBGuCRROCTHOWj_KCuTm1E1qCxnDSGxDWePNhMSwFup0w-39AmEjUjn3fGt5hnk6VQUVb23Vt7WqB68TAwJP4jy_8Y2fLjHSuNxfPaTeHP5HaURNV2HaYBcnuTftsLPT1d0pYhXNluWW9FBoMuFgahexmUbnj4ZJy2nu-Y5Vj3Ntxso_2Jtk6nCqxPAoFoy6auXPDSRB1bEIZiM9uuxjM25IBcQ');">
+</div>
+<div class="absolute inset-0 bg-black/30 group-hover:bg-black/10 transition-colors"></div>
+</div>
+<h4 class="text-white text-lg font-bold group-hover:text-primary transition-colors">Private Butler</h4>
+<p class="text-gray-400 text-sm mt-1">Discreet service for your suite.</p>
+</div>
+<!-- Amenity Card 4 -->
+<div class="min-w-[280px] md:min-w-[320px] snap-start group cursor-pointer">
+<div class="h-[200px] w-full rounded-xl bg-surface-dark overflow-hidden relative mb-4">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-110" data-alt="Abstract image representing high speed wifi or technology" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAraAyiGNUBk0Malr3fOWgeF6ugT7aTtLYWr28sQnJiatZg6d39zcP7w6DkBeNqu0SSttT7Ywh7pGBHaAGl0X4YMyH1u9iU07aP8ZFnB8Q3kGFxKvpylX35VB8i8GKe9vmmrE-wOgwIrjlHNBFRX8hhDm6WWtZ7LyA4VMGFCAY7bqSnSJkVmnrpD_uuBkEa0vMQfVBrq79sPue9dwLLy9T6UxYya53Gq6q1DjjNRYJlPFymwBYqQy_YyfUQGijx8TCZxR3OV4fC3w');">
+</div>
+<div class="absolute inset-0 bg-black/30 group-hover:bg-black/10 transition-colors"></div>
+</div>
+<h4 class="text-white text-lg font-bold group-hover:text-primary transition-colors">Hyper-Speed Wi-Fi</h4>
+<p class="text-gray-400 text-sm mt-1">Secure, private network infrastructure.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Final CTA -->
+<section class="py-20 px-4 flex justify-center bg-background-dark border-t border-[#383429]">
+<div class="layout-content-container flex flex-col items-center text-center max-w-[800px]">
+<div class="text-primary mb-4">
+<span class="material-symbols-outlined text-5xl">star</span>
+</div>
+<h2 class="text-white text-3xl md:text-5xl font-bold leading-tight mb-6">Experience the Extraordinary</h2>
+<p class="text-gray-400 text-lg mb-10 max-w-xl">
+                    Your journey into the world of Luxurybegins here. Secure your reservation and prepare for an unforgettable stay.
+                </p>
+<div class="flex flex-col sm:flex-row gap-4 w-full justify-center">
+<button class="bg-primary hover:bg-[#c9951e] text-background-dark text-base font-bold h-12 px-8 rounded-lg min-w-[200px] transition-all transform hover:-translate-y-1 shadow-lg shadow-primary/20">
+                        Check Availability
+                    </button>
+<button class="bg-transparent border border-[#534c3c] hover:border-white text-white text-base font-bold h-12 px-8 rounded-lg min-w-[200px] transition-all">
+                        Contact Concierge
+                    </button>
+</div>
+</div>
+</section>
+<!-- Simple Footer -->
+<footer class="bg-[#110f0b] py-10 px-4 md:px-40 border-t border-[#2a2415]">
+<div class="flex flex-col md:flex-row justify-between items-center gap-6">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary">diamond</span>
+<span class="text-white font-bold tracking-widest text-lg">Luxury</span>
+</div>
+<div class="flex gap-8 text-gray-500 text-sm">
+<a class="hover:text-primary transition-colors" href="#">Privacy Policy</a>
+<a class="hover:text-primary transition-colors" href="#">Terms of Service</a>
+<a class="hover:text-primary transition-colors" href="#">Sitemap</a>
+</div>
+<p class="text-gray-600 text-xs">© 2023 LuxuryHotels. All rights reserved.</p>
+</div>
+</footer>
+</main>
+</body></html>
