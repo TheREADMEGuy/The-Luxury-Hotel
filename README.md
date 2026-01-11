@@ -19,7 +19,6 @@ Built to be clean, minimal, and easy to customize for developers and designers.
 
 ---
 
----
 
 ## 🛠️ Tech Stack
 
@@ -28,6 +27,4 @@ Built to be clean, minimal, and easy to customize for developers and designers.
 - JavaScript  
 
 ---
-
-## 📂 Project Structure
 
